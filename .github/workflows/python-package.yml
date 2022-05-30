@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.8", "3.9", "3.10"]
+        python-version: ["3.33", "3.33", "3.33"]
 
     steps:
       - run: echo "🎉 this is demo from dudi scripts by a ${{ github.event_name }} event."
