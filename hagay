@@ -1,1 +1,7 @@
-remote
+select name from sys.databases 
+
+
+test 
+
+
+test 
